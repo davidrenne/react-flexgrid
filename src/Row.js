@@ -21,7 +21,7 @@ const Row = React.createClass({
   render() {
     const { reverse, className, children, ...other} = this.props;
 
-    const modificators = ['row'];
+    const modificators = ['flex-row'];
     let passingProps = {};
     for (let key in other) {
       if (modificatorKeys.indexOf(key) > -1) {

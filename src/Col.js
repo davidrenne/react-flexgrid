@@ -13,14 +13,14 @@ const Col = React.createClass({
     reverse: React.PropTypes.bool
   },
   _classMap: {
-    xs: 'col-xs-',
-    sm: 'col-sm-',
-    md: 'col-md-',
-    lg: 'col-lg-',
-    xsOffset: 'col-xs-offset-',
-    smOffset: 'col-sm-offset-',
-    mdOffset: 'col-md-offset-',
-    lgOffset: 'col-lg-offset-'
+    xs: 'flex-xs-',
+    sm: 'flex-sm-',
+    md: 'flex-md-',
+    lg: 'flex-lg-',
+    xsOffset: 'flex-xs-offset-',
+    smOffset: 'flex-sm-offset-',
+    mdOffset: 'flex-md-offset-',
+    lgOffset: 'flex-lg-offset-'
   },
   render() {
     const { reverse, className, ...other} = this.props;
