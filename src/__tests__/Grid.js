@@ -18,8 +18,8 @@ describe('Grid', () => {
     expect(className).toContain('container');
   });
 
-  it('Should add "container-fluid" class if "fluid" property is true', () => {
+  it('Should add "container-flex-fluid" class if "fluid" property is true', () => {
     const grid = TestUtils.renderIntoDocument(<Grid fluid />);
-    expect(ReactDOM.findDOMNode(grid).className).toEqual('container-fluid');
+    expect(ReactDOM.findDOMNode(grid).className).toEqual('container-flex-fluid');
   });
 });

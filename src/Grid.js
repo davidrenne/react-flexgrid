@@ -7,7 +7,7 @@ const Grid = React.createClass({
   },
   render() {
     const { fluid, className, ...other} = this.props;
-    const containerClass = fluid ? 'container-fluid' : 'container';
+    const containerClass = fluid ? 'container-flex-fluid' : 'container';
     const _className = classNames(className, containerClass);
 
     return (

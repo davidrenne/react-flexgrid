@@ -1,7 +1,7 @@
 {
   "name": "react-flexgrid-no-bs-conflict",
-  "version": "0.7.0",
-  "description": "Flexbox grid for react apps",
+  "version": "0.7.2",
+  "description": "Flexbox grid for react apps - But without twitter bootstrap conflicts",
   "keywords": [
     "browser",
     "react",
