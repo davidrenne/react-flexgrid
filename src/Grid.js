@@ -1,10 +1,8 @@
 const React = require('react');
 const classNames = require('classnames');
+var createReactClass = require('create-react-class');
 
-const Grid = React.createClass({
-  propTypes: {
-    fluid: React.PropTypes.bool
-  },
+const Grid = createReactClass({
   render() {
     const { fluid, className, ...other} = this.props;
     const containerClass = fluid ? 'container-flex-fluid' : 'container';

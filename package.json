@@ -1,6 +1,6 @@
 {
   "name": "react-flexgrid-no-bs-conflict",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Flexbox grid for react apps - But without twitter bootstrap conflicts",
   "keywords": [
     "browser",
@@ -68,5 +68,8 @@
       "<rootDir>/node_modules/babel-runtime",
       "<rootDir>/node_modules/classnames"
     ]
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.2"
   }
 }

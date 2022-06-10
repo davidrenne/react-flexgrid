@@ -1,17 +1,7 @@
 const React = require('react');
+var createReactClass = require('create-react-class');
 
-const Col = React.createClass({
-  propTypes: {
-    xs: React.PropTypes.number,
-    sm: React.PropTypes.number,
-    md: React.PropTypes.number,
-    lg: React.PropTypes.number,
-    xsOffset: React.PropTypes.number,
-    smOffset: React.PropTypes.number,
-    mdOffset: React.PropTypes.number,
-    lgOffset: React.PropTypes.number,
-    reverse: React.PropTypes.bool
-  },
+const Col = createReactClass({
   _classMap: {
     xs: 'flex-xs-',
     sm: 'flex-sm-',

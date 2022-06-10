@@ -1,23 +1,10 @@
 const React = require('react');
 const classNames = require('classnames');
 
-const ModificatorType = React.PropTypes.oneOf(['xs', 'sm', 'md', 'lg']);
 const modificatorKeys = ['start', 'center', 'end', 'top', 'middle', 'bottom', 'around', 'between', 'first', 'last'];
+var createReactClass = require('create-react-class');
 
-const Row = React.createClass({
-  propTypes: {
-    reverse: React.PropTypes.bool,
-    start: ModificatorType,
-    center: ModificatorType,
-    end: ModificatorType,
-    top: ModificatorType,
-    middle: ModificatorType,
-    bottom: ModificatorType,
-    around: ModificatorType,
-    between: ModificatorType,
-    first: ModificatorType,
-    last: ModificatorType
-  },
+const Row = createReactClass({
   render() {
     const { reverse, className, children, ...other} = this.props;
 
